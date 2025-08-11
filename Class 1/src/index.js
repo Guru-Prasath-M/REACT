@@ -1,0 +1,7 @@
+import ReactDOM from 'react-dom/client'
+import App from './App'
+let root = ReactDOM.createRoot(document.getElementById('root'))
+
+root.render(<App/>)
+{/* // root.render("Good Morning") */}
+{/* root.render <div><h1>GM</h1> */}
