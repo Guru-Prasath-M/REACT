@@ -20,6 +20,10 @@ class Message1 extends React.Component{
                
         
                 </div>
+                
     }
 }
 export default Message1;
+
+//Props - Sending one data from another...
+//State - Component own data...
