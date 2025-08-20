@@ -1,11 +1,7 @@
-import React from 'react';
-
-const Users = ()=>{
-    return (
-        <div>
-            <h2>Users Components</h2>
-        </div>
-    );
+let Users = ()=>{
+    return <div>
+        <h3>Users Components</h3>
+    </div>
 }
 
 export default Users;

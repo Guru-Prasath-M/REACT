@@ -7,10 +7,10 @@ import Users from "./Users/Users";
 function App() {
   return (
     <div>
-      <h2>App components</h2>
+      {/* <h2>App components</h2> */}
       
       <Navbar/>
-      <Employees/>
+      {/* <Employees/> */}
       <Users/>
     </div>
   );

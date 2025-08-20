@@ -80,4 +80,4 @@ let employees=[{"eid":1,"ename":"Roxane","gender":"Female"},
             </div>
 }
 
-export default Employee
+export default Employee;
