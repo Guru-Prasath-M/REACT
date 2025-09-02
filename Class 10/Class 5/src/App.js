@@ -1,5 +1,7 @@
 import Employees from "./Employees/Employees";
 import Login from "./Login/Login";
+import Login1 from "./Login/Login1";
+import Login2 from "./Login/Login2";
 import Navbar from "./Navbar/Navbar";
 import Users from "./Users/Users";
 
@@ -14,7 +16,9 @@ function App() {
       {/* <Employees/> */}
       {/* <Users/> */}
 
-      <Login/>
+      {/* <Login/> */}
+      {/* <Login1/> */}
+      <Login2/>
     </div>
   );
 }
