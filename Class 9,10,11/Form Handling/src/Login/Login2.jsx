@@ -28,4 +28,4 @@ let Login2 = ()=>{
     </div>
 }
 
-export default Login2;
+export default Login2; 
