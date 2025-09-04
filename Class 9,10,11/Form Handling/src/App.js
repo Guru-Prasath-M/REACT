@@ -20,7 +20,7 @@ let App = ()=>{
          <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
 
           {/* <NavLink to="/index" id="nav" className="navbar-brand ">Logo</NavLink> */}
-          <img className="logo" src="https://logomoose.com/wp-content/uploads/2016/01/18.jpg" alt="image" />
+          <img className="logo" src="https://img.freepik.com/free-vector/gradient-technology-logo_23-2148163455.jpg?semt=ais_incoming&w=740&q=80" alt="image" />
           <div className="ml-auto" id="menu">
             <ul className="navbar-nav">
               <li><NavLink to="/index" className="nav-link">Home</NavLink></li>

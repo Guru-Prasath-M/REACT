@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style.css'
+import { NavLink } from 'react-router'
 
 const Home = () => {
   return (
@@ -25,8 +26,13 @@ const Home = () => {
           </div>
 
           <div>
-            <button className='button1'>Contact Me</button>
-            <button className='button2'>LinkedIn</button>
+            <NavLink to="/contact">
+              <button className='button1'>Contact Me</button>
+            </NavLink>
+            <NavLink to="https://www.linkedin.com/in/guruprasath-m-b90860267/">
+              <button className='button2'>LinkedIn</button>
+            </NavLink>
+            
           </div>
 
 
