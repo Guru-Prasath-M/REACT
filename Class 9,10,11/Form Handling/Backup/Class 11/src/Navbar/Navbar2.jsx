@@ -1,3 +1,5 @@
+//MULTI PAGE WITH RELOAD
+
 import React from "react";
 
 let Navbar2 = ()=>{

@@ -1,23 +1,35 @@
-import React from 'react'
-import Navbar1 from './Navbar/Navbar1';
-import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
-import About from './Components/About';
-import Home from './Components/Home';
-import Services from './Components/Services'
-import Contact from './Components/Contact';
-import Navbar2 from './Navbar/Navbar2';
-const App = () => {
+import { Link , BrowserRouter , Routes , Route} from "react-router-dom";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Services from "./Components/Services";
+import Contact from "./Components/Contact";
+
+let App = ()=>{
+
+
   return <div>
-          <Router>
-              <Navbar1/>
-              <Switch>
-                <Route path="/about" component={About}/>
-                <Route path="/services" component={Services}/>
-                <Route path="/index" component={Home}/>
-                <Route path="/contact" component={Contact}/>
-              </Switch>
-          </Router>
-          {/* <Navbar2/> */}
-        </div>
+      <BrowserRouter>
+         <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+          <Link to="/index" className="navbar-brand">LOGO</Link>
+          <div className="ml-auto">
+            <ul className="navbar-nav">
+              <li><Link to="/index" className="nav-link">Home</Link></li>
+              <li><Link to="/about" className="nav-link">About</Link></li>
+              <li><Link to="/services" className="nav-link">Services</Link></li>
+              <li><Link to="/contact" className="nav-link">Contact</Link></li>
+            </ul>
+          </div>
+         </nav>
+
+         <Routes>
+          <Route path="/"  element={<Home/>}/>
+          <Route path="/index" Component ={Home}></Route>
+          <Route path="/about" Component ={About}></Route>
+          <Route path="/services" Component ={Services}></Route>
+          <Route path="/contact" Component ={Contact}></Route>
+         </Routes>
+      </BrowserRouter>
+  </div>
+  
 }
 export default App;

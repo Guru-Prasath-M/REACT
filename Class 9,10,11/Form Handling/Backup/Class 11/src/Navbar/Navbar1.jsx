@@ -1,3 +1,6 @@
+//REACT ROUTER 5
+//SINGLE PAGE WITHOUT RELOAD
+
 import React from "react";
 import {Link} from "react-router-dom"
 
@@ -12,6 +15,7 @@ let Navbar1 = ()=>{
                 <li><Link to="/about" className="nav-link text-white">About</Link></li>
                 <li><Link to="/services" className="nav-link text-white">Services</Link></li>
                 <li><Link to="/contact" className="nav-link text-white">Contact</Link></li>
+                <li><Link to="/products" className="nav-link text-white">Products</Link></li>
 
             </ul>
         </div>

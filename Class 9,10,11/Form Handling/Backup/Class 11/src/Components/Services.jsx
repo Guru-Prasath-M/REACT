@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Services = () => {
+ const Services = () => {
   return (
     <div>
         <h4>Services Component</h4>
