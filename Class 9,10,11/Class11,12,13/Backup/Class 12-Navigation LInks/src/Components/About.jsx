@@ -16,7 +16,7 @@ const About = () => {
               </div>
           </div>
 
-
+          
           <div className="row">
             <div className="col-4">
               <h1 className='con-1'>1.</h1>
@@ -30,8 +30,11 @@ const About = () => {
               <h4>What Do We Do</h4>
               <p>We give you a free course that guides you through the process.</p>
             </div>
+
             
           </div>
+
+
 
           <div className="row">
             <div className="col-4">

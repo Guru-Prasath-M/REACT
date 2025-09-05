@@ -90,15 +90,15 @@
 }
 
 .btn{   
-     margin-top: 90px;
+    margin-top: 90px;
     margin-left: 300px;
     box-shadow: 0 0 5px black, 0 0 20px rgb(247, 247, 247);
     border: none;
 }
 
 .image-ab {
-  width: 100%;
-  max-width: 250px; /* prevent overflow */
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    height: 100%;
+    width: 100%;
+    margin-left: 900px;
+ 
 }
