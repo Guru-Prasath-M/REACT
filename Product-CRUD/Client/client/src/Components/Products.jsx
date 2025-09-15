@@ -10,8 +10,8 @@ let Products = () => {
   },[])
 
 
-  return <div className='container'>
-            <pre>{JSON.stringify(products)}</pre>
+  return <div className='container mt-5'>
+            {/* <pre>{JSON.stringify(products)}</pre> */}
             <div className="row">
               {
                 products.length>0? <>
