@@ -1,17 +1,12 @@
-import Employees from "./Employees/Employees";
-import Navbar from "./Navbar/Navbar";
-import Users from "./Users/Users";
+import Login from "./Login";
+
 
 
 
 function App() {
   return (
     <div>
-      {/* <h2>App components</h2> */}
-      
-      <Navbar/>
-      {/* <Employees/> */}
-      <Users/>
+     <Login/>
     </div>
   );
 }
