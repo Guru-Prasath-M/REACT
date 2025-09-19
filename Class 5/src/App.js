@@ -1,4 +1,5 @@
-import Login from "./Login";
+// import Login from "./Login";
+import UseMemoEX from "./UseMemoEX";
 
 
 
@@ -6,7 +7,8 @@ import Login from "./Login";
 function App() {
   return (
     <div>
-     <Login/>
+     {/* <Login/> */}
+     <UseMemoEX/>
     </div>
   );
 }
