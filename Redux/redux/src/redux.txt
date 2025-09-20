@@ -1,0 +1,9 @@
+1 . What is REDUX ACTION ?
+Action is a function & it return actionable object.
+
+2 . What is REDUCER ?
+Reducer is a pure function , it takes two arguments 2. Action 1. Intial state
+Based on action type reducer will create / update store data. 
+
+3 . What is STORE ?
+Store is a collection of state.
