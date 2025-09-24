@@ -1,7 +1,6 @@
 import { Provider } from "react-redux";
 import Message from "./Message/Message";
 import { store } from "./Redux/store";
-import Product from "./Product/Product";
 
 
 function App() {
@@ -12,8 +11,6 @@ function App() {
        <hr />
     
       <Message/>
-      <hr />
-      <Product/>
     </Provider>
     </div>
   );
